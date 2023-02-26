@@ -1,6 +1,12 @@
 # 文档自动生成组件
 
+## 模板制作
+1.	新建Doc文件
+2.	插入->文档部件->域
+3.	域名选择MergeField, 
+4.	域名输入属性名称 DocumentTitle（定义的实体类中属性名称或字典中的关键字）
 
+## 代码编写
 ~~~
 TestEntity data = new TestEntity()
             {
